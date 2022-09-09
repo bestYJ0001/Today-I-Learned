@@ -47,7 +47,7 @@ int solution03_my(int n) {
         }
     }
     return answer;
-}
+} // 1점
 
 int solution03_other(int n) {
     int answer = 0;
