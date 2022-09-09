@@ -42,5 +42,5 @@ double solution03_my(int arr[], size_t arr_len) {
     }
     answer /= arr_len;
     return answer;
-    // 1점 받음;;
+    // 1점짜리 였음
 }
