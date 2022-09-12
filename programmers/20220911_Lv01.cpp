@@ -31,6 +31,22 @@ int* solution01_my(long long n) {
     return answer;
 }
 
+bool solution02_my(string s)
+{
+    bool answer = true;
+    int num_p = 0, num_y = 0;
+    int i = 0;
+    
+    for(int j =0; j<s.length(); j++){
+        if(s[j] == 'p' || s[j] == 'P'){
+            num_p++;
+        }else if(s[j] == 'y' || s[j] == 'Y'){
+            num_y++;
+        }
+    }
+    return num_p == num_y;
+}
+
 #include <string>
 #include <vector>
 #include <algorithm>
